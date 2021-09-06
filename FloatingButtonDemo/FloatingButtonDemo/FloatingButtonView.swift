@@ -117,6 +117,7 @@ class FloatingButtonView: UIView {
                 .first!.delegate as! SceneDelegate
         let window = sceneDelegate.window
         window?.rootViewController?.view.addSubview(self)
+        self.targetView = target
     }
 
     /// 移除浮動FloatingButton按鈕
